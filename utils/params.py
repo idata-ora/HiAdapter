@@ -3,7 +3,7 @@ import argparse
 import os
 
 
-ROOT_DIR='/home/lqy/HiAdapter'
+ROOT_DIR='HiAdapter-main'
 subdir = datetime.strftime(datetime.now(), '%Y%m%d-%H%M%S')
 SNAPSHOT_DIR = ROOT_DIR+'/checkpoints/model/'+subdir+'/'
 
@@ -20,14 +20,14 @@ def parse_args():
 
 
     parser.add_argument('--frozen', default=1, type=int)
-    parser.add_argument('--data_name', default='SPIDER-colorectal1', type=str)  #
+    parser.add_argument('--data_name', default='SPIDER-colorectal', type=str)  #
     parser.add_argument('--model_name', default='uni', type=str)    # ctranspath    conch    uni
     parser.add_argument('--batch_size', type=int, default=16)  
     parser.add_argument('--num_epochs', type=int, default=50)
     parser.add_argument('--num_classes', default=13, type=int) 
     parser.add_argument('--sampler', default=0, type=int)
-    parser.add_argument('--file_list_folder', default='/data/lqy/OTHER/SPIDER-colorectal/context1/split_13', type=str)
-    parser.add_argument('--data_dir', default='/data/lqy/OTHER/SPIDER-colorectal/context1/trainval', type=str)
+    parser.add_argument('--file_list_folder', default='split', type=str)
+    parser.add_argument('--data_dir', default='trainval', type=str)
 
 
 
@@ -43,7 +43,7 @@ def parse_args():
 
     parser.add_argument('--MA', default=1, type=int)
     parser.add_argument('--MA_folder', default='nuclei-non', type=str) #nuclei-non
-    parser.add_argument('--deep_fusion_layers', nargs='+', type=int, default=[0, 4, 8, 12],
+    parser.add_argument('--deep_fusion_layers', nargs='+', type=int, default=[0, 6, 12, 18],
                     help='List of layer indices for deep fusion.')
 
     
