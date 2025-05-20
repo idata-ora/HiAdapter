@@ -53,6 +53,7 @@ class cDeepFusion(nn.Module):
         channel_gate = self.gate_channel(attn_out)  # [B, L, D_model]
 
 
-        fused = main_feat * global_gate + attn_out * channel_gate * (1-global_gate)
+        # fused = main_feat * global_gate + attn_out * channel_gate * (1-global_gate)
+        fused = main_feat + attn_out * channel_gate * (1-global_gate)
         return fused
 
