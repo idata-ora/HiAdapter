@@ -21,5 +21,3 @@ The framework of the proposed HiAdapter:
 Compared to other PEFT baselines, which generally display diffuse and inconsistent attention patterns with poor localization of biologically relevant structures, HiAdapter consistently generates sharper, spatially coherent maps that align with both localized cellular features and broader tissue architectures.
 
 ![Score](./assets/fig4.png)
->>>>>>> 4cd14de (first commit)
-
