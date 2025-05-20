@@ -2,7 +2,7 @@
 
 
 ## Updates
-+ TODO: Add code
++ TODO: Add code ✔
 
 + TODO: Add OSPatch
 
