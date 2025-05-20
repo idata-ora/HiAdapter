@@ -28,19 +28,28 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 <br>
 ```
 ├── OSPatch
-│   ├── split
-│   │   ├── train_fold_0.txt
-│   │   └── val_fold_0.txt
-│   │   └── test.txt
-│   └── trainval
-│       ├── 0
-│       ├── 1
-│       ├── ...
-│       ├── nuclei
-│       └── non
 
+│   ├── split
+
+│   │   ├── train_fold_0.txt
+
+│   │   └── val_fold_0.txt
+
+│   │   └── test.txt
+
+│   └── trainval
+
+│       ├── 0
+
+│       ├── 1
+
+│       ├── ...
+
+│       ├── nuclei
+
+│       └── non
+```
 
 ## Quick Start
 ```
 python train.py
-
