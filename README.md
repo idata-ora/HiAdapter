@@ -25,10 +25,8 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 ## Data Link
 + SPIDER dataset: [here](https://github.com/HistAI/SPIDER)
 + OSPatch dataset: coming soon~
-<br>
 
 ```python
-.
 ├── OSPatch
 │   ├── split
 │   │   ├── train_fold_0.txt
