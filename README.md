@@ -4,7 +4,7 @@
 ## Updates
 + TODO: Add code
 
-- TODO: Add OSPatch
++ TODO: Add OSPatch
 
 ## Abstract
 
@@ -21,3 +21,11 @@ The framework of the proposed HiAdapter:
 Compared to other PEFT baselines, which generally display diffuse and inconsistent attention patterns with poor localization of biologically relevant structures, HiAdapter consistently generates sharper, spatially coherent maps that align with both localized cellular features and broader tissue architectures.
 
 ![Score](./assets/fig4.png)
+
+## Data Link
++ SPIDER dataset: [here](https://github.com/HistAI/SPIDER)
++ OSPatch dataset: coming soon~
+
+
+## Quick Start
+> python train.py
