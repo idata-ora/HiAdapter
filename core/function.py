@@ -217,7 +217,7 @@ def test(model, testloader, writer_dict=None, args=None):
                 else:
                     prompts = prompts.float().cuda()
                 labels = labels.long().cuda()
-                logits, _ = model(images,prompts,None)
+                logits, _ = model(images,prompts)
               
             else:
                 images, labels = batch
