@@ -12,9 +12,8 @@ With the rapid development of pathology foundation models, there is a growing de
 
 The framework of the proposed HiAdapter:
 
-<div align="center">
-<img src='./assets/fig1.png' width='100%'>
-</div>
+![Score](./assets/fig1.png)
+
 
 ## Enhanced Interpretability
 
@@ -32,7 +31,13 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 │   │   ├── train_fold_0.txt
 │   │   └── val_fold_0.txt
 │   │   └── test.txt
-│   └── trainval
+│   ├── trainval
+│       ├── 0
+│       ├── 1
+│       ├── ...
+│       ├── nuclei
+│       └── non
+│   └── test
 │       ├── 0
 │       ├── 1
 │       ├── ...
