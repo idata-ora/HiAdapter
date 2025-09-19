@@ -32,7 +32,7 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 │   ├── split_6
 │   │   ├── train_fold_0.txt
 │   │   └── val_fold_0.txt
-│   │   └── test.txt
+│   │   └── test_fold_0.txt
 │   └── 6classes
 │       ├── 0
 │       ├── 1
@@ -44,3 +44,4 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 ## Quick Start
 ```python
 python train.py
+
