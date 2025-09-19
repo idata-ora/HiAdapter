@@ -157,7 +157,7 @@ def main():
 
         _x_train = [os.path.join(args.file_list_folder, 'train_fold_'+str(ffold)+'.txt')]
         _x_val = [os.path.join(args.file_list_folder, 'val_fold_'+str(ffold)+'.txt')]
-        _x_test = [os.path.join(args.file_list_folder, 'test.txt')]
+        _x_test = [os.path.join(args.file_list_folder, 'test_fold_'+str(ffold)+'.txt')]
         
 
         x_train = readlines_from_txt(_x_train)
@@ -401,3 +401,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
