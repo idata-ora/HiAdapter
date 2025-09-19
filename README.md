@@ -29,28 +29,22 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 
 ```python
 ├── OSPatch
-│   ├── split
+│   ├── split_6
 │   │   ├── train_fold_0.txt
 │   │   └── val_fold_0.txt
 │   │   └── test.txt
-│   ├── trainval
+│   └── 6classes
 │       ├── 0
 │       ├── 1
 │       ├── ...
 │       ├── nuclei
 │       └── non
-│   └── test
-│       ├── 0
-│       ├── 1
-│       ├── ...
-│       ├── nuclei
-│       └── non
-```
 
 
 ## Quick Start
 ```python
 python train.py
+
 
 
 
