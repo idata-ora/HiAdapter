@@ -33,6 +33,8 @@ def parse_args():
 
 
     parser.add_argument('--ppcl', default=1, type=int)
+    parser.add_argument('--alpha', default=8, type=int) 
+    parser.add_argument('--weight', default=0.00001, type=int) 
     parser.add_argument('--iternum', default=3123, type=int) 
     parser.add_argument('--hidden_size', default=1024, type=int) 
     parser.add_argument('--save_proxies', default='', type=str)
@@ -74,3 +76,4 @@ def parse_args():
     args = parser.parse_args()
 
     return args
+
