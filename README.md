@@ -22,8 +22,18 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 
 ![Score](./assets/fig4.png)
 
-## Data Link
+## Data Preparation
+#### Dataset Source
 + SPIDER dataset: [here](https://github.com/HistAI/SPIDER)
+
+#### Patch Extraction
++ HistoBistro：[here]([https://github.com/HistAI/SPIDER](https://github.com/peng-lab/HistoBistro/tree/feature_extraction))
+
+#### Split Strategy
+```python
+python split_5fold.py
+
+
 
 ```python
 ├── dataset
@@ -42,7 +52,6 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 ## Quick Start
 ```python
 python train.py
-
 
 
 
