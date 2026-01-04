@@ -27,12 +27,12 @@ Compared to other PEFT baselines, which generally display diffuse and inconsiste
 + SPIDER dataset: [here](https://github.com/HistAI/SPIDER)
 
 #### Patch Extraction
-+ HistoBistro：[here]([https://github.com/HistAI/SPIDER](https://github.com/peng-lab/HistoBistro/tree/feature_extraction))
++ HistoBistro：[here](https://github.com/peng-lab/HistoBistro/tree/feature_extraction)
 
 #### Split Strategy
 ```python
 python split_5fold.py
-
+```
 
 
 ```python
@@ -52,6 +52,4 @@ python split_5fold.py
 ## Quick Start
 ```python
 python train.py
-
-
-
+```
